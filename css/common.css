@@ -1,0 +1,70 @@
+.btn-group {
+    display: flex;
+}
+
+.btn {
+    text-align: left;
+    font-size: 1rem;
+    max-width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.btn-primary {
+    background-color: #002868;
+}
+
+.btn-primary:hover {
+    background-color: white;
+    color: #002868;
+    font-weight: bold;
+}
+
+.btn-secondary {
+    background-color: transparent;
+    border: 5px solid #002868;
+}
+
+.btn-secondary:hover {
+    border: 5px solid white;
+    color: #002868;
+    font-weight: bold;
+}
+
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 50px 100px 0 100px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    margin-top: 20px;
+}
+ 
+.cardText {
+    margin-top: 10px;
+    color: #002868;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.cardImage {
+    width: 100%;
+}
+
+.cardTextContainer {
+    margin-top: 20px;
+    text-align: center;
+}
+   

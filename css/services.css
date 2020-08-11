@@ -1,0 +1,12 @@
+#services {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+.image {
+    width: auto;
+}
